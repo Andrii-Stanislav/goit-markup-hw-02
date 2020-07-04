@@ -18,6 +18,7 @@ font-family: 'Roboto', sans-serif;
   --secondary-text-color: #212121;
   --darkbackground-text-color: #ffffff;
   --accent-color: #2196F3;
+  --footer-mail-tell-color: rgba(255, 255, 255, 0.6);
 
   --font-primery: "Roboto";
   --font-logo: "Raleway"
@@ -33,6 +34,7 @@ body {
 .link {
 text-decoration: none;
 font-style: normal;
+color: inherit;
 }
 
 .list {
@@ -62,6 +64,11 @@ font-style: normal;
   color: var(--primery-text-color);
 }
 
+.main-nav-link:hover,
+.main-nav-link:focus {
+color: var(--accent-color);
+}
+
 .header-contacts-link{
   font-weight: 500;
   font-size: 12px;
@@ -70,6 +77,10 @@ font-style: normal;
   color: var(--primery-text-color); 
 }
 
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
 /*
  Main Studio Content 
  */
@@ -77,6 +88,7 @@ font-style: normal;
 /* Hero Content */
 .hero-section {
   background-color: grey;
+  /* Временно. Чтобы было видно белый текст */
 }
 
 .hero-title {
@@ -121,16 +133,20 @@ color: var(--primery-text-color);
 }
 
 /* Activities Content */
+
 .activities-section {
   background-color: grey;
+    /* Временно. Чтобы было видно белый текст */
 }
 
-.activities-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
+.activities-title,
+.team-title,
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 
@@ -141,5 +157,149 @@ color: var(--secondary-text-color);
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--darkbackground-text-color);
+}
+
+/* Team Content */
+
+.team-title {
+  color: var(--secondary-text-color);
+}
+
+.team-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  color: var(--accent-color);
+}
+
+/* Clients Content */
+
+.clients-title {
+  color: var(--secondary-text-color);
+}
+
+.clients-list-link:focus,
+.clients-list-link:hover{
+  color: var(--accent-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: grey;
+  /* Временно. Чтобы было видно белый текст */
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--darkbackground-text-color);
+}
+
+.footer-link-place, 
+.footer-link-contacts  {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--darkbackground-text-color);  
+}
+
+.footer-link-contacts {
+  color: var(--footer-mail-tell-color);
+}
+
+.join-word {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--darkbackground-text-color);
+}
+
+.join-list-link:hover, 
+.join-list-link:focus {
+  color: var(--accent-color);
+} 
+
+.footer-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--darkbackground-text-color);
+
+  display: flex;
+  background-color: var(--accent-color);
+}
+
+
+/*
+Portfolio
+Main Section
+*/
+
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+
+  background-color: #F5F4FA;
+}
+
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--darkbackground-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list-link:focus,
+.portfolio-list-link:hover {
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-types {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color); 
+}
+
+.portfolio-description {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
   color: var(--darkbackground-text-color);
 }
