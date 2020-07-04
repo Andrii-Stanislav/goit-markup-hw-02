@@ -29,6 +29,7 @@ font-family: 'Roboto', sans-serif;
 body {
   font-family: var(--font-primery);
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -48,7 +49,6 @@ color: inherit;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--logo-text-color);
 }
 
@@ -120,7 +120,6 @@ display: flex;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
@@ -128,7 +127,6 @@ display: flex;
 .features-description {
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 color: var(--primery-text-color);
 }
 
@@ -146,7 +144,6 @@ color: var(--primery-text-color);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 color: var(--secondary-text-color);
 }
 
@@ -155,7 +152,6 @@ color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--darkbackground-text-color);
 }
@@ -171,7 +167,6 @@ color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -179,7 +174,6 @@ color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -211,7 +205,6 @@ color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--darkbackground-text-color);
 }
 
@@ -219,7 +212,6 @@ color: var(--secondary-text-color);
 .footer-link-contacts  {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--darkbackground-text-color);  
 }
 
@@ -231,7 +223,6 @@ color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--darkbackground-text-color);
 }
@@ -265,7 +256,6 @@ Main Section
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 
   background-color: #F5F4FA;
@@ -293,13 +283,11 @@ Main Section
 .portfolio-types {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--primery-text-color); 
 }
 
 .portfolio-description {
   font-size: 18px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   color: var(--darkbackground-text-color);
 }
