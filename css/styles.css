@@ -1,0 +1,37 @@
+/*
+font-family: Raleway; - только Логотип
+font-weight: 700;
+
+font-family: Roboto;
+font-weight: 400;
+font-weight: 500; - только в шапке сайта
+font-weight: 700;
+font-weight: 900;
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+  --logo-text-color: #000000;
+  --primery-text-color: #212121;
+  --secondary-text-color: #757575;
+  --darkbackground-text-color: #ffffff;
+  --accent-color: #2196F3;
+}
+
+/* Header */
+
+
+body {
+  font-family: "Roboto";
+}
+
+.link {
+text-decoration: none;
+font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
