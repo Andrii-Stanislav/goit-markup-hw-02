@@ -12,6 +12,17 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
 :root {
   --logo-text-color: #000000;
   --primery-text-color: #757575;
